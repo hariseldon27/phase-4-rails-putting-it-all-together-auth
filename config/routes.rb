@@ -5,4 +5,6 @@ get "/me", to: "users#show"
 
 post "/login", to: "sessions#create"
 delete "/logout", to: "sessions#destroy"
+
+get "/recipes", to: "recipes#index"
 end
